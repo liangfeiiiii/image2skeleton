@@ -54,6 +54,18 @@
 
 ## 快速开始
 
+### 最省事：丢给 Agent
+
+不用敲命令。把下面这句连同仓库地址发给你的 Agent：
+
+```text
+安装这个技能，装到全局技能目录：https://github.com/liangfeiiiii/image2skeleton
+```
+
+它会自己去 GitHub 拉代码、放进 `~/.dsh/skills/image2skeleton`。装完新开一个会话，技能就出现在列表里。
+
+### 或者自己敲命令
+
 ```bash
 # 克隆到全局技能目录
 git clone git@github.com:liangfeiiiii/image2skeleton.git ~/.dsh/skills/image2skeleton
