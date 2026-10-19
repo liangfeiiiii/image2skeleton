@@ -56,13 +56,25 @@
 
 ```bash
 # 克隆到全局技能目录
-git clone <仓库地址> ~/.dsh/skills/image2skeleton
+git clone git@github.com:liangfeiiiii/image2skeleton.git ~/.dsh/skills/image2skeleton
+```
+
+没配 SSH 密钥就换成 HTTPS：
+
+```bash
+git clone https://github.com/liangfeiiiii/image2skeleton.git ~/.dsh/skills/image2skeleton
 ```
 
 <details>
-<summary>Windows 下的手动安装</summary>
+<summary>Windows 下怎么放</summary>
 
-把整个文件夹复制到：
+在 Git Bash 里上面那行可以直接跑。用 PowerShell 的话，家目录要写全路径：
+
+```powershell
+git clone https://github.com/liangfeiiiii/image2skeleton.git "$env:USERPROFILE\.dsh\skills\image2skeleton"
+```
+
+不想用 git，就下载仓库的 zip，解压后把整个文件夹放到：
 
 ```
 C:\Users\<用户名>\.dsh\skills\image2skeleton
