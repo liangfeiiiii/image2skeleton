@@ -1,0 +1,15 @@
+{
+  "name": "image2skeleton",
+  "version": "1.0.0",
+  "owner": "lym",
+  "updated_at": "2026-10-20",
+  "status": "tested-in-session",
+  "maturity_tier": "production",
+  "target_platforms": [
+    "generic"
+  ],
+  "depends_on": [],
+  "output_contract": "一个连贯的中文自然段提示词，300 到 600 字，按八段顺序编译：定位、分区、主体、层级、材质光、色彩、文字板块、收束禁令。不誊抄原文，不给色值与字号，主体层可整段替换。",
+  "rollback_boundary": "只更新 image2skeleton 自身，保留上一版副本，不改动其他技能。",
+  "license": "MIT"
+}
